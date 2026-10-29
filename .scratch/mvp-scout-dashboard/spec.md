@@ -13,11 +13,12 @@ Terminologia: ver `GLOSSARY.md` na raiz. Esta spec usa os termos do glossário.
 
 ## Stack
 
-- Next.js (App Router) + TypeScript
+- Next.js 16 (App Router) + TypeScript, pnpm
 - Drizzle ORM + SQLite (better-sqlite3)
-- Charts: ECharts
+- UI: Tailwind v4 + shadcn (`base-nova`: Base UI + Lucide + Geist), tema dark denso por padrão
+- Charts: componente `chart` do shadcn (Recharts v3 por baixo, composição aberta — radar e scatter inclusos)
 - Deploy: VPS/Docker (dev = prod)
-- UI em pt-BR, tema dark densivo
+- UI em pt-BR
 
 ## Escopo do MVP
 

@@ -1,11 +1,9 @@
-# AGENTS.md
+<!-- BEGIN:nextjs-agent-rules -->
 
-## Agent skills
+## This is NOT the Next.js you know
 
-### Issue tracker
+This version has breaking changes — APIs, conventions, and file structure may all differ from your training data. Read the relevant guide in `node_modules/next/dist/docs/` (resolved from this file's directory; in monorepos the `next` package may not be visible from the repo root) before writing any code. Heed deprecation notices.
 
-Issues vivem como markdown local em `.scratch/` (um diretório por feature). See `docs/agents/issue-tracker.md`.
+This block is written and re-added by `next dev` — verify at `node_modules/next/dist/server/lib/generate-agent-files.js`. Removing it from a diff only re-creates the uncommitted change; committing it with your work keeps the tree clean.
 
-### Domain docs
-
-Single-context: um `GLOSSARY.md` na raiz + `docs/adr/`. See `docs/agents/domain.md`.
+<!-- END:nextjs-agent-rules -->
